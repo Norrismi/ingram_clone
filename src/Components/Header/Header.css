@@ -1,0 +1,23 @@
+.header-container{
+    background-color: grey;
+   
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header-btns{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.header-location{
+    display: flex;
+    flex-direction: row;
+}
+
+#btn{
+    padding: 1rem;
+}
+
