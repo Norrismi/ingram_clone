@@ -1,0 +1,48 @@
+
+
+
+.header-container{
+    background-color: #EEEEEE; 
+    
+    
+    
+    
+}
+
+.header-navbar{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px 100px 1fr 1fr 1fr ;
+    padding: 5px 0 5px 0;
+    margin: auto;
+
+}
+
+
+.header-btns{
+    display: grid;
+    grid-template-columns: 100px 100px 200px 100px;
+   
+}
+  
+
+
+.header-location{
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    grid-column: 7;
+
+}
+
+#btn{
+   display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding: 1rem;
+    color: black;
+}
+
+.row-two{
+color: red;
+}
+

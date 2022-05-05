@@ -1,0 +1,43 @@
+.nav__container{
+    background-color: #2374B7;
+   
+}
+
+
+
+.nav__search{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    justify-content: space-around;
+    
+   
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* justify-content: space-around; */
+}
+
+
+
+.nav__logo{
+ 
+}
+
+.nav__logo-ingram{
+    height: auto;
+    width: 150px;
+ 
+   
+    /* margin-left: -20px; */
+  
+}
+
+.nav__searchbar{
+ 
+    
+}
+
+.nav__btn{
+    width: 150px;
+   
+    align-self: flex-start;
+}
