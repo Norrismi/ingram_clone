@@ -2,10 +2,7 @@ import React from 'react'
 import './NavSecondary.css'
 import ingramPic from '../../Assets/ingram.png'
 
-import { Input } from 'antd';
-import { Button } from 'antd';
-import { Row, Col } from 'antd';
-
+import { Input, Button, Row, Col } from 'antd';
 
 const { Search } = Input;
 
