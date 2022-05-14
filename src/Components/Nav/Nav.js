@@ -11,6 +11,36 @@ function Header() {
             <div className="header-navbar">
                 <div className="header-btns">
                     <Row>
+                        <Col span={10}>
+                            <Row>
+                                <Col className="nav__logo">
+                                    <Button type="link"  id='btn'>Shop</Button>
+                                </Col>
+                                <Col >
+                                    <Button type="link"  id='btn'>Cloud</Button>
+                                </Col>
+                                <Col >
+                                    <Button type="link"  id='btn'>Commerce & Lifecycle</Button>
+                                </Col>
+                                <Col  >
+                                    <Button type="link"  id='btn'>IoT</Button>
+                                </Col>
+                            </Row>
+                        </Col>
+                        <Col span={6} offset={8}>
+                            <Row className='nav__location'>
+                                <Col  >
+                                    <Button type="link"  id='btn'>County:</Button>
+                                </Col>
+                                <Col >
+                                    <Button type="link"  id='btn'><Text underline>United States</Text></Button>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+
+
+                    {/* <Row>
                         <Col flex="100px" className="nav__logo">
                             <Button type="link" block id='btn'>Shop</Button>
                         </Col>
@@ -29,7 +59,8 @@ function Header() {
                         <Col span={4} push={8}>
                             <Button type="link" block id='btn'><Text underline>United States</Text></Button>
                         </Col>
-                    </Row>
+                    </Row> */}
+
                 </div>
             </div>
         </div>

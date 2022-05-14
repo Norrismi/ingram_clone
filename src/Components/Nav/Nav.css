@@ -1,9 +1,4 @@
 
-
-
-
-
-
 .header-container{
     background-color: #EEEEEE; 
 }
@@ -21,6 +16,15 @@
     padding: 1rem;
     color: black;
 }
+
+
+
+.nav__location{
+    display: flex;
+    justify-content: center;
+}
+
+
 
 
 
